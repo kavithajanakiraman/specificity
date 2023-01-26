@@ -1,0 +1,51 @@
+/*element selector*/
+p
+{	background-color: orange;
+}
+/*descendant selector*/
+body h1
+{
+	color: red;
+	font-style: italic;
+	font-family: sans-serif;
+	font-display: block;
+}
+body > h1~p/*child selector*/
+{
+	color: greenyellow;
+	font-style: italic;
+	font-family: sans-serif;
+	font-display: block;
+}
+.firstpara/*class selector*/
+{
+	background-color: blueviolet;
+}
+#one
+{
+	background-color: gray;
+}
+#two
+{
+	background-color: gold;
+}
+p#one
+{
+	background-color: rebeccapurple;
+}
+p.firstpara
+{
+	background-color: red;
+}
+p.secondpara
+{
+	background-color: brown;
+}
+p.firstpara.secondpara
+{
+	background-color: yellow;
+}
+h1,h2,h3
+{
+	text-align: center;
+}
